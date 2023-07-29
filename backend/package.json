@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "It is an chat application build by me Ayush Singh",
+  "main": "nodemon index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ayush050"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,71 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-image: url('http://wallpapercave.com/wp/3jQbonO.jpg');
+  background-size: cover;
+  background-position: center;
+ 
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 4em; /* Adjust logo height for smaller screens */
+  }
+  .card {
+    padding: 1em; /* Adjust card padding for smaller screens */
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 3em; /* Adjust logo height for even smaller screens */
+  }
+  .card {
+    padding: 0.5em; /* Further adjust card padding for smaller screens */
+  }
+  .read-the-docs {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-height: 768px) {
+  /* Styles for devices with a height of 768 pixels or less */
+  .logo {
+    height: 4em; /* Adjust logo height for smaller height screens */
+  }
+  .card {
+    padding: 1em; /* Adjust card padding for smaller height screens */
+  }
+}
+
+@media (max-height: 480px) {
+  /* Styles for devices with a height of 480 pixels or less */
+  .logo {
+    height: 3em; /* Adjust logo height for even smaller height screens */
+  }
+  .card {
+    padding: 0.5em; /* Further adjust card padding for smaller height screens */
+  }
+  .read-the-docs {
+    font-size: 0.8rem; /* Adjust font size for smaller height screens */
+  }
+}
